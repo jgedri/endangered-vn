@@ -27,8 +27,24 @@ label start:
 
     b "..."
 
-    b "Hello there."
+    b "Hello there. I'm Brian."
 
+    l "And I'm Lee, the panther."
+
+    menu:
+        "Which story would you like to follow?"
+
+        "Lee's":
+            jump panther
+
+        "Brian's":
+            jump bear
+
+    label panther:
+
+
+    label bear:
+        b "Okay then."
     # This ends the game.
 
     return
