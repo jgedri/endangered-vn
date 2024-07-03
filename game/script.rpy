@@ -41,7 +41,8 @@ label start:
             jump bear
 
     label panther:
-
+        l "I'm honored that you would choose little ol' me."
+        l "Let's see. It all started when I came out to my mom."
 
     label bear:
         b "Okay then."
