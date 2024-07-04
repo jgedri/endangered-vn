@@ -3,9 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-define b = Character("Brian")
-define l = Character("Lee")
+define bearrator = Character(None, what_color="#0099ff")
+define b = Character("Brian", what_color="#0099ff")
+define l = Character("Lee", what_color="#009900")
 
 # The game starts here.
 
@@ -17,11 +17,7 @@ label start:
 
     scene bg room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
+    
 
     # These display lines of dialogue.
 
@@ -44,8 +40,12 @@ label start:
         l "I'm honored that you would choose little ol' me."
         l "Let's see. It all started when I came out to my mom."
 
+        jump coming_out
+
     label bear:
         b "Okay then."
+
+        jump day_1
     # This ends the game.
 
     return
