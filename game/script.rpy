@@ -4,8 +4,8 @@
 # name of the character.
 
 define bearrator = Character(None, what_color="#0099ff")
-define b = Character("Brian", what_color="#0099ff")
-define l = Character("Lee", what_color="#009900")
+define b = Character("Brian", kind=nvl, what_color="#0099ff")
+define l = Character("Lee", kind=nvl, what_color="#009900")
 
 # The game starts here.
 
