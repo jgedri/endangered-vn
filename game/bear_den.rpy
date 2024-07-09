@@ -8,4 +8,4 @@ label bear_den.livingroom:
         "Talk to Brian":
             b "How're you, Lee?"
 
-        "Sit on the couch":
+        # "Sit on the couch":
