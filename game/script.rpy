@@ -27,7 +27,7 @@ label start:
 
     l "And I'm Lee, the panther."
 
-    menu:
+    menu (nvl=True):
         "Which story would you like to follow?"
 
         "Lee's":
@@ -35,7 +35,8 @@ label start:
 
         "Brian's":
             jump bear
-
+    nvl clear
+    
     label panther:
         l "I'm honored that you would choose little ol' me."
         l "Let's see. It all started when I came out to my mom."
@@ -44,6 +45,7 @@ label start:
 
     label bear:
         b "Okay then."
+        nvl clear
 
         jump day_1
     # This ends the game.
