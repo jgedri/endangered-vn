@@ -4,9 +4,11 @@ label coming_out:
     "It was a hot, muggy afternoon. Typical Florida weather."
 
     m "Wait a minute. You're {i}what{/i} now?"
+    nvl clear
 
     l "Gay. Attracted to other guys."
     l "And no, you didn't raise me wrong, Mama."
+    nvl clear
 
     m "That's a relief! But what about-?"
 
