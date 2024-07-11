@@ -1,4 +1,4 @@
-define m = Character("Lee's Mom", who_color="#993300")
+define m = Character("Lee's Mom", who_color="#993300", what_color="#993300")
 
 label coming_out:
     "It was a hot, muggy afternoon. Typical Florida weather."

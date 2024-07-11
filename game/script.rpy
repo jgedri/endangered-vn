@@ -3,9 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define bearrator = Character(None, what_color="#0099ff")
+define bearrator = Character(None, kind=nvl, what_color="#0099ff")
 define b = Character("Brian", kind=nvl, what_color="#0099ff")
-define l = Character("Lee", kind=nvl, what_color="#009900")
+define l = Character("Lee", kind=nvl, what_color="#009900", who_color="#009900")
 
 # The game starts here.
 
