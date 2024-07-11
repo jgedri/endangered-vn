@@ -7,6 +7,8 @@ define bearrator = Character(None, kind=nvl, what_color="#0099ff")
 define b = Character("Brian", kind=nvl, what_color="#0099ff")
 define l = Character("Lee", kind=nvl, what_color="#009900", who_color="#009900")
 
+# Define images
+
 # The game starts here.
 
 label start:
@@ -15,7 +17,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg beach day
 
     
 
@@ -26,6 +28,7 @@ label start:
     b "Hello there. I'm Brian."
 
     l "And I'm Lee, the panther."
+    nvl clear
 
     menu (nvl=True):
         "Which story would you like to follow?"
@@ -34,7 +37,7 @@ label start:
             jump panther
 
         "Brian's":
-            jump bear
+            jump bear_den
     nvl clear
     
     label panther:

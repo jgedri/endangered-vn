@@ -1,5 +1,5 @@
-image bg bedroom day = "personal room day.png"
-image bg bedroom evening = "personal room evening.png"
+image bg bedroom day = "bg/personal room day.png"
+image bg bedroom evening = "bg/personal room evening.png"
 
 label bear_den:
     menu:
